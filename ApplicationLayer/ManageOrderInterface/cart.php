@@ -59,7 +59,7 @@ if (isset($_POST ['delete'])) {
         type='text/css'>
     </link>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/Project/css/home.css">
+    <link rel="stylesheet" href=" /css/home.css">
 
     <style>
     body,
@@ -79,7 +79,7 @@ if (isset($_POST ['delete'])) {
     }
 
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/Project/img/dingoLogo4.jfif");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(" /img/dingoLogo4.jfif");
         height: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -87,7 +87,7 @@ if (isset($_POST ['delete'])) {
         position: relative;
     }
     .hero-image2 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Project/img/wall4.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" /img/wall4.jpg");
         height: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -324,13 +324,13 @@ if (isset($_POST ['delete'])) {
 <div id="menu-nav">
     <div style="list-style-type: none;" id="navigation-bar">
         <ul>
-                <li><a href="/Project/ApplicationLayer/ManageCustomerInterface/home.php"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageMenuInterface/viewMenu.php"><i class="fa fa-book"></i><span>Menu</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageOrderInterface/cart.php"><i class="fa fa-shopping-cart"></i><span>Cart</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageRefundInterface/refundList.php"><i class="fa fa-money"></i><span>Refund</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageCustomerInterface/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
+                <li><a href=" /ApplicationLayer/ManageCustomerInterface/home.php"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href=" /ApplicationLayer/ManageMenuInterface/viewMenu.php"><i class="fa fa-book"></i><span>Menu</span></a></li>
+                <li><a href=" /ApplicationLayer/ManageOrderInterface/cart.php"><i class="fa fa-shopping-cart"></i><span>Cart</span></a></li>
+                <li><a href=" /ApplicationLayer/ManageRefundInterface/refundList.php"><i class="fa fa-money"></i><span>Refund</span></a></li>
+                <li><a href=" /ApplicationLayer/ManageCustomerInterface/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
                 
-                <a href="/Project/ApplicationLayer/ManageCustomerInterface/customerProfile.php" id="topnav-right"><i class="fa fa-user"></i><span>Hello <?php echo $name; ?></span></a>
+                <a href=" /ApplicationLayer/ManageCustomerInterface/customerProfile.php" id="topnav-right"><i class="fa fa-user"></i><span>Hello <?php echo $name; ?></span></a>
             </ul>
 
     </div>
@@ -344,7 +344,7 @@ if (isset($_POST ['delete'])) {
                 <h2 class="title">Cart</h2>
               </div>
               <div class="card-body">
-                <center>
+                <centre>
                   <form action="" method="POST">
                     <table id="emp_table" width="100%" border="0" >
                       <tr class="tr_header" >
@@ -420,9 +420,9 @@ if (isset($_POST ['delete'])) {
                     } ?>
 
                    <br></br>
-                   <td><button style="width: 30%;" class="btn btn--radius-2 btn--black" input type="button" name = "checkout" value="checkout" onclick="location.href='/Project/ApplicationLayer/ManageOrderInterface/checkout.php'">Checkout</button></td>
+                   <td><button style="width: 30%;" class="btn btn--radius-2 btn--black" input type="button" name = "checkout" value="checkout" onclick="location.href=' /ApplicationLayer/ManageOrderInterface/checkout.php'">Checkout</button></td>
                    <td>&nbsp</td>
-                   <td><button style="width: 30%;" class="btn btn--radius-2 btn--black" input type="button" name = "checkout" value="checkout" onclick="location.href = '/Project/ApplicationLayer/ManageMenuInterface/viewMenu.php'">CONTINUE SHOPPING</button></td>
+                   <td><button style="width: 30%;" class="btn btn--radius-2 btn--black" input type="button" name = "checkout" value="checkout" onclick="location.href = ' /ApplicationLayer/ManageMenuInterface/viewMenu.php'">CONTINUE SHOPPING</button></td>
                  
 
                    
@@ -430,7 +430,7 @@ if (isset($_POST ['delete'])) {
 
         </form>
 
-      </center>
+      </centre>
     </div>
   </div>
 </div>
@@ -471,13 +471,13 @@ if (isset($_POST ['delete'])) {
                     </form>
 
                  </div>
-                 <form class="" id="form3" method="post" action='/Project/ApplicationLayer/ManageOrderInterface/checkout.php' align="right">
+                 <form class="" id="form3" method="post" action=' /ApplicationLayer/ManageOrderInterface/checkout.php' align="right">
                    <button type="submit" name="checkout" class="btn btn-primary">CHECKOUT</button>
                  </form>
                  </div>
 
                  <div style="padding-top:10px;padding-left:500px">
-                   <button class="btn btn-dark" onclick="location.href = '/Project/ApplicationLayer/ManageMenuInterface/viewMenu.php' ">CONTINUE SHOPPING</button>
+                   <button class="btn btn-dark" onclick="location.href = ' /ApplicationLayer/ManageMenuInterface/viewMenu.php' ">CONTINUE SHOPPING</button>
 
                  </div>
 
@@ -489,9 +489,9 @@ if (isset($_POST ['delete'])) {
     <!-- Footer -->
     <footer class="p-4 mb-0 bg-secondary">
         <div class="container">
-          <center>
+          <centre>
             <p class="m-0 text-center text-white">&copy; 2021 DINGO FOOD. All Rights Reserved</p>
-          </center>
+          </centre>
         </div>
         <!-- /.container -->
     </footer>
@@ -500,18 +500,18 @@ if (isset($_POST ['delete'])) {
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/Project/vendor/jquery/jquery.min.js"></script>
-    <script src="/Project/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src=" /vendor/jquery/jquery.min.js"></script>
+    <script src=" /vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/Project/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src=" /vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="/Project/js/jqBootstrapValidation.js"></script>
-    <script src="/Project/js/contact_me.js"></script>
+    <script src=" /js/jqBootstrapValidation.js"></script>
+    <script src=" /js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="/Project/js/agency.min.js"></script>
+    <script src=" /js/agency.min.js"></script>
 
 
 
