@@ -359,7 +359,7 @@ $sno = $row + 1;
                     <td><a href='/Dingo/ApplicationLayer/ManageOrderInterface/addOrder_Cart.php?menu_id=$menu_id'>
                     <img height="100px" class='picture' src='/Dingo/img/<?php echo $row['menu_image']; ?>'</a></td>
                     <td><?php echo $row['menu_name'];?></td>
-                    <td><?php echo $row['menu_price'];?></td>
+                    <td>RM<?php echo $row['menu_price'];?></td>
                     <td><?php echo $row['menu_description'];?></td>
                     <td><?php echo $row['menu_status'];?></td>
                     <td><a href='/Dingo/ApplicationLayer/ManageOrderInterface/addOrder_Cart.php?id="<?php echo $row['menu_id']; ?>"'><button>Add to Cart</button></a></td>
