@@ -37,16 +37,16 @@ if(isset($_POST['login']))
     <title>Log In</title>
 
     <!-- Bootstrap core CSS -->
-    <link href=" /vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href=" /Food-Ordering-System/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href=" /vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href=" /vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href=" /Food-Ordering-System/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href=" /Food-Ordering-System/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
         type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href=" /css/landing-page.min.css" rel="stylesheet">
+    <link href=" /Food-Ordering-System/css/landing-page.min.css" rel="stylesheet">
 
 </head>
 <style>
@@ -76,7 +76,7 @@ if(isset($_POST['login']))
 }
 
 .active {
-    background-color: ;
+    background-color:black;
     color: red;
 }
 
@@ -135,7 +135,7 @@ body {
 }
 </style>
 
-<body background=" /img/bg3.jpg">
+<body background=" /Food-Ordering-System/img/bg3.jpg">
 
     <!-- Log in -->
     <section class="testimonials text-center ">
@@ -143,9 +143,9 @@ body {
             <div id="tableContainer2">
 
                 <form method="POST" action="">
-                    <table align="center">
+                    <table align ="center">
                         <tr>
-                            <th><img style="height : 100px" src=" /img/avatar.svg"></th>
+                            <th><img style="height : 100px" src=" /Food-Ordering-System/img/avatar.svg"></th>
                         <tr>
                             <th style="text-align:center" colspan="2">CUSTOMER LOGIN</th>
                         <tr>
@@ -180,8 +180,8 @@ body {
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src=" /vendor/jquery/jquery.min.js"></script>
-    <script src=" /vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src=" /Food-Ordering-System/vendor/jquery/jquery.min.js"></script>
+    <script src=" /Food-Ordering-System/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

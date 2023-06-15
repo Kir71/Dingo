@@ -22,7 +22,7 @@ function loginAdmin(){
                 $_SESSION['admin_password'] = $value[2];
             
                 echo "<script type='text/javascript'>alert('$message');
-                window.location = 'adminHome.php';
+                window.location = 'Food-Ordering-System/ApplicationLayer/ManageCustomerInterface/adminHome.php';
                 </script>";
                 exit();
 		}

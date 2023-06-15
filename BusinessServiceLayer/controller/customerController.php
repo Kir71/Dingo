@@ -62,7 +62,7 @@ class customerController {
         if($customer->registerCust() > 0){
                 $message = "Customer Successfully Registered!";
             echo "<script type='text/javascript'>alert('$message');
-            window.location = '/Project/ApplicationLayer/ManageCustomerInterface/login.php';</script>";
+            window.location = '/Food-Ordering-System/ApplicationLayer/ManageCustomerInterface/login.php';</script>";
             }
     }
         
@@ -70,7 +70,7 @@ class customerController {
      function viewAll(){
          // view all customer
         $customer = new customerModel();
-        return $customer->viewallCust();
+        return $customer->viewAllCustomer();
     }
     
   function viewCustomer(){
@@ -95,7 +95,7 @@ class customerController {
              //update customer data to customerModel
             $message = "Your Profile Update Is Success!";
         echo "<script type='text/javascript'>alert('$message');
-    window.location = '/Project/ApplicationLayer/ManageCustomerInterface/customerProfile.php?customer_id=".$_POST['customer_id']."';</script>";
+    window.location = '/Food-Ordering-System/ApplicationLayer/ManageCustomerInterface/customerProfile.php?customer_id=".$_POST['customer_id']."';</script>";
         }
     }
 }

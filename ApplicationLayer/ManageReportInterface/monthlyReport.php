@@ -93,7 +93,7 @@ ul {
     list-style-type: none;
 
 }
-	<!-- BUTTON STYLE -->
+	
 
 .button {
     background-color: #e74c3c; /* Green */
@@ -128,7 +128,7 @@ ul {
 }
 
 
-<!-- /BUTTON STYLE -->
+
 	
 	</style>
   </head>
@@ -242,7 +242,7 @@ ul {
             <th class="text-left">Profit</th>
             <th class="text-left">Revenue</th>
         </tr>
-      </thead>
+      </thead> 
       <?php
 
       $sno=0;

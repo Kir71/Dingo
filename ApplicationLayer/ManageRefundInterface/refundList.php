@@ -46,7 +46,7 @@ function makeConnect($sql){
 }
 ?>
 <head>
-    <link rel="stylesheet" href=" /css/dingo.css">
+    <link rel="stylesheet" href=" /Food-Ordering-System/css/dingo.css">
 
        <script language="javascript" type="text/javascript">
        window.history.forward();
@@ -65,8 +65,8 @@ function makeConnect($sql){
        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
            type='text/css'>
        </link>
-       <link href=" /vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-       <link rel="stylesheet" href=" /css/home.css">
+       <link href=" /Food-Ordering-System/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href=" /Food-Ordering-System/css/home.css">
    <style>
    body, html {
   height: 100%;
@@ -75,7 +75,7 @@ function makeConnect($sql){
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(" /img/dingoLogo3.jfif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(" /Food-Ordering-System/img/dingoLogo3.jfif");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,14 +144,14 @@ ul {
     <div id="menu-nav">
         <div style="list-style-type: none;" id="navigation-bar">
             <ul>
-                <li><a href=" /ApplicationLayer/ManageCustomerInterface/home.php"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href=" /ApplicationLayer/ManageMenuInterface/viewMenu.php"><i class="fa fa-book"></i><span>Menu</span></a></li>
-                <li><a href=" /ApplicationLayer/ManageOrderInterface/orderList.php"><i class="fa fa-user"></i><span>Order</span></a></li>
-                <li><a href=" /ApplicationLayer/ManageOrderInterface/cart.php"><i class="fa fa-shopping-cart"></i><span>Cart</span></a></li>
-                <li><a href=" /ApplicationLayer/ManageRefundInterface/refundList.php"><i class="fa fa-money"></i><span>Refund</span></a></li>
-                <li><a href=" /ApplicationLayer/ManageCustomerInterface/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
+                <li><a href=" /Food-Ordering-System/ApplicationLayer/ManageCustomerInterface/home.php"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href=" /Food-Ordering-System/ApplicationLayer/ManageMenuInterface/viewMenu.php"><i class="fa fa-book"></i><span>Menu</span></a></li>
+                <li><a href=" /Food-Ordering-System/ApplicationLayer/ManageOrderInterface/orderList.php"><i class="fa fa-user"></i><span>Order</span></a></li>
+                <li><a href=" /Food-Ordering-System/ApplicationLayer/ManageOrderInterface/cart.php"><i class="fa fa-shopping-cart"></i><span>Cart</span></a></li>
+                <li><a href=" /Food-Ordering-System/ApplicationLayer/ManageRefundInterface/refundList.php"><i class="fa fa-money"></i><span>Refund</span></a></li>
+                <li><a href=" /Food-Ordering-System/ApplicationLayer/ManageCustomerInterface/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
                 
-                <a href=" /ApplicationLayer/ManageCustomerInterface/customerProfile.php" id="topnav-right"><i class="fa fa-user"></i><span>Hello <?php echo $name; ?></span></a>
+                <a href=" /Food-Ordering-System/ApplicationLayer/ManageCustomerInterface/customerProfile.php" id="topnav-right"><i class="fa fa-user"></i><span>Hello <?php echo $name; ?></span></a>
             </ul>
 
 
@@ -350,18 +350,18 @@ if (isset($_POST["Submit1"])) {
 
   
    <!-- Bootstrap core JavaScript -->
-    <script src=" /vendor/jquery/jquery.min.js"></script>
-    <script src=" /vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src=" /Food-Ordering-System/vendor/jquery/jquery.min.js"></script>
+    <script src=" /Food-Ordering-System/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src=" /vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src=" /Food-Ordering-System/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src=" /js/jqBootstrapValidation.js"></script>
-    <script src=" /js/contact_me.js"></script>
+    <script src=" /Food-Ordering-System/js/jqBootstrapValidation.js"></script>
+    <script src=" /Food-Ordering-System/js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src=" /js/agency.min.js"></script>
+    <script src=" /Food-Ordering-System/js/agency.min.js"></script>
 
     <script src="../js/main.js"></script>
 </body>

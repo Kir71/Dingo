@@ -320,12 +320,12 @@ $sno = $row + 1;
   <!-- DISPLAY MENU ACCORDING MENU_CATEGORY -->
 
   <div class="container" style="margin-top:20px">
-    <center>
+    <centre>
       <h2>
         <?php echo isset($_GET['menu_category'])? $_GET['menu_category']: '';?> Menu
       </h2>
       <div class="row">
-        <center>
+        <cenre>
           <a href="viewMenu.php">All</a> .
           <a href="viewMenu.php?menu_category=Cake">Cake</a> .
           <a href="viewMenu.php?menu_category=Beverage">Beverage</a> .
