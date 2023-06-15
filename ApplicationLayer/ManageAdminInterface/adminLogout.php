@@ -5,6 +5,7 @@
 session_start(); 
 session_unset();
 session_destroy(); 
-header('location: /Project/ApplicationLayer/ManageAdminInterface/adminLogin.php');
+header('location: /ApplicationLayer/ManageAdminInterface/adminLogin.php');
+
 exit();
 ?>

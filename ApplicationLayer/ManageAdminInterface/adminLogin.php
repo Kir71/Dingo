@@ -37,15 +37,15 @@ if(isset($_POST['login']))
     <title>Log In</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/Project/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Dingo/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="/Project/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/Project/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="/Dingo/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/Dingo/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="/Project/css/landing-page.min.css" rel="stylesheet">
+    <link href="/Dingo/css/landing-page.min.css" rel="stylesheet">
 
   </head>
 	<style>
@@ -137,7 +137,7 @@ td,th
     background-size: 100%;
  }
 	</style>
-  <body background="/Project/img/coffee6.jpg">
+  <body background="C:\Users\shazw\OneDrive - ump.edu.my\Documents\Dingo\img\coffee6.jpg">
 
     <!-- Log in -->
     <section class="testimonials text-center ">
@@ -145,9 +145,9 @@ td,th
   <div id="tableContainer2">
    
   <form method="post" action="">
-  <table align="center">
+  <table style= "text-align: center">
   <tr>
-  <th><img style = "height : 100px" src="/Project/img/avatar.svg"></th>
+  <th><img style = "height : 100px" src="/Dingo/img/avatar.svg"></th>
   <tr>
   <th style="text-align:center" colspan="2"><b>ADMIN LOGIN<b></th>
   <tr>
@@ -175,8 +175,8 @@ td,th
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/Project/vendor/jquery/jquery.min.js"></script>
-    <script src="/Project/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/Dingo/vendor/jquery/jquery.min.js"></script>
+    <script src="/Dingo/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 

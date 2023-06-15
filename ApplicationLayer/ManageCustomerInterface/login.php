@@ -37,16 +37,16 @@ if(isset($_POST['login']))
     <title>Log In</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/Project/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Dingo/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="/Project/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/Project/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="/Dingo/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/Dingo/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
         type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="/Project/css/landing-page.min.css" rel="stylesheet">
+    <link href="/Dingo/css/landing-page.min.css" rel="stylesheet">
 
 </head>
 <style>
@@ -135,7 +135,7 @@ body {
 }
 </style>
 
-<body background="/Project/img/bg3.jpg">
+<body background="/Dingo/img/bg3.jpg">
 
     <!-- Log in -->
     <section class="testimonials text-center ">
@@ -145,7 +145,7 @@ body {
                 <form method="POST" action="">
                     <table align="center">
                         <tr>
-                            <th><img style="height : 100px" src="/Project/img/avatar.svg"></th>
+                            <th><img style="height : 100px" src="/Dingo/img/avatar.svg"></th>
                         <tr>
                             <th style="text-align:center" colspan="2">CUSTOMER LOGIN</th>
                         <tr>
@@ -180,8 +180,8 @@ body {
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/Project/vendor/jquery/jquery.min.js"></script>
-    <script src="/Project/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/Dingo/vendor/jquery/jquery.min.js"></script>
+    <script src="/Dingo/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
