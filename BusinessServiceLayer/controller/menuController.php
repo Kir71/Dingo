@@ -1,19 +1,19 @@
 <?php
-require_once 'C:/xampp/htdocs/Project/BusinessServiceLayer/model/menuModel.php';
+require_once 'C:/xampp/htdocs/Dingo/BusinessServiceLayer/model/menuModel.php';
 
 class menuController{
 
     function addMenu(){
         //To add a new menu to the dingo food system by admin into menu list.
         $menu = new menuModel();
-        // $menu->menu_id = $_POST['menu_id'];
+        $menu->menu_id = $_POST['menu_id'];
         $menu->menu_name = $_POST['menu_name'];
         $menu->menu_price = $_POST['menu_price'];
         $menu->menu_category = $_POST['menu_category'];
         $menu->menu_description = $_POST['menu_description'];
         $menu->menu_status = $_POST['menu_status'];
         $menu->menu_image = $_POST['menu_image'];
-        $menu->cost = $_POST['cost'];
+       
         if($menu->addMenu() > 0){
             $message = "Menu Successfully Added!";
         echo "<script type='text/javascript'>alert('$message');
@@ -44,7 +44,7 @@ class menuController{
         $menu->menu_description = $_POST['menu_description'];
         $menu->menu_status = $_POST['menu_status'];
         $menu->menu_image = $_POST['menu_image'];
-        $menu->cost = $_POST['cost'];
+      
         if($menu->editMenu()){
             $message = "Success Update!";
         echo "<script type='text/javascript'>alert('$message');

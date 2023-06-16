@@ -37,107 +37,107 @@ if(isset($_POST['login']))
     <title>Log In</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/Project/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="/Project/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/Project/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="/Project/css/landing-page.min.css" rel="stylesheet">
+    <link href="/css/landing-page.min.css" rel="stylesheet">
 
   </head>
-	<style>
+<style>
 
 
-.topnavi {
-  overflow: auto;
-  background-color: black;
-  margin: 0px;
+  .topnavi {
+    overflow: auto;
+    background-color: black;
+    margin: 0px;
 
-}
-
-.topnavi a {
-	border-right:5px solid black;
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 17px;
-  padding-left:30px;
-  padding-right:30px;
-  
-}
-
-.topnavi a:hover {
-  background-color: grey;
-  color: white;
-}
-
-.active {
-  background-color: ;
-  color: red;
-}
-
-
-th
-{
-
-
-}
-
-table
-{
-	border-radius:15px;
-	border:5px solid black;	
-	border-collapse:separate;	
-	width:30%;
-	background-color: rgba(255,255,255,0.8);
-
-}
-
-td,th
-{padding:10px;
-
-}
-
-.bottom{
-	bottom:0;
-	position:fixed;
-	width:100%;
-	background-color: black;
-	border-collapse:separate;
-	border-radius:0px;
-}
-
-
-#t01 td,tr {
-	border: 0px;
-		width:100%;
-}
-
- #tableContainer1 {
-    height: 100%;
-    width: 100%;
-    display: table;
   }
-  
-  #tableContainer2 {
-    vertical-align: middle;
-    display: table-cell;
-    height: 100%;
+
+  .topnavi a {
+    border-right:5px solid black;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left:30px;
+    padding-right:30px;
+    
   }
-  
-   body{
-	 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
- }
-	</style>
-  <body background="/Project/img/coffee6.jpg">
+
+  .topnavi a:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  .active {
+    background-color: ;
+    color: red;
+  }
+
+
+  th
+  {
+
+
+  }
+
+  table
+  {
+    border-radius:15px;
+    border:5px solid black;	
+    border-collapse:separate;	
+    width:30%;
+    background-color: rgba(255,255,255,0.8);
+
+  }
+
+  td,th
+  {padding:10px;
+
+  }
+
+  .bottom{
+    bottom:0;
+    position:fixed;
+    width:100%;
+    background-color: black;
+    border-collapse:separate;
+    border-radius:0px;
+  }
+
+
+  #t01 td,tr {
+    border: 0px;
+      width:100%;
+  }
+
+  #tableContainer1 {
+      height: 100%;
+      width: 100%;
+      display: table;
+    }
+    
+    #tableContainer2 {
+      vertical-align: middle;
+      display: table-cell;
+      height: 100%;
+    }
+    
+    body{
+    
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+</style>
+  <body background="/img/coffee6.jpg">
 
     <!-- Log in -->
     <section class="testimonials text-center ">
@@ -147,7 +147,7 @@ td,th
   <form method="post" action="">
   <table align="center">
   <tr>
-  <th><img style = "height : 100px" src="/Project/img/avatar.svg"></th>
+  <th><img style = "height : 100px" src="/img/avatar.svg"></th>
   <tr>
   <th style="text-align:center" colspan="2"><b>ADMIN LOGIN<b></th>
   <tr>
@@ -175,8 +175,8 @@ td,th
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/Project/vendor/jquery/jquery.min.js"></script>
-    <script src="/Project/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 

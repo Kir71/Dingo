@@ -30,80 +30,80 @@ $name = $_SESSION['username'];
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
         rel="stylesheet"  type='text/css'>
     </link>
-        <link href="/Project/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/Project/css/home.css">
-    <link rel="stylesheet" href="/Project/css/profile.css">
+        <link href=" /vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/profile.css">
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/Project/img/dingoLogo4.jfif");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(" /img/dingoLogo4.jfif");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
-.hero-image2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Project/img/wall4.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+  .hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" /img/wall4.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
 
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
 
-ul {
-    list-style-type: none;
+  ul {
+      list-style-type: none;
 
-}
+  }
 
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 0 10%;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
+  /* Create two equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 50%;
+      padding: 0 10%;
+      height: 300px; /* Should be removed. Only for demonstration */
+  }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
 </style>
 
 </head>
@@ -124,13 +124,13 @@ require_once '../../libs/database.php';
   <div id="menu-nav">
   <div style="list-style-type: none;" id="navigation-bar">
     <ul>
-                <li><a href="/Project/ApplicationLayer/ManageCustomerInterface/home.php"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageMenuInterface/viewMenu.php"><i class="fa fa-book"></i><span>Menu</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageOrderInterface/cart.php"><i class="fa fa-shopping-cart"></i><span>Cart</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageRefundInterface/refundList.php"><i class="fa fa-money"></i><span>Refund</span></a></li>
-                <li><a href="/Project/ApplicationLayer/ManageCustomerInterface/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
+                <li><a href="/ApplicationLayer/ManageCustomerInterface/home.php"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="/ApplicationLayer/ManageMenuInterface/viewMenu.php"><i class="fa fa-book"></i><span>Menu</span></a></li>
+                <li><a href="/ApplicationLayer/ManageOrderInterface/cart.php"><i class="fa fa-shopping-cart"></i><span>Cart</span></a></li>
+                <li><a href="/ApplicationLayer/ManageRefundInterface/refundList.php"><i class="fa fa-money"></i><span>Refund</span></a></li>
+                <li><a href="/ApplicationLayer/ManageCustomerInterface/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
                 
-                <a href="/Project/ApplicationLayer/ManageCustomerInterface/customerProfile.php" id="topnav-right"><i class="fa fa-user"></i><span>Hello <?php echo $name; ?></span></a>
+                <a href="/ApplicationLayer/ManageCustomerInterface/customerProfile.php" id="topnav-right"><i class="fa fa-user"></i><span>Hello <?php echo $name; ?></span></a>
             </ul>
 
   </div>
@@ -149,11 +149,11 @@ require_once '../../libs/database.php';
           <h5 class=" mt-2">Hello, <?php echo $name  ?></h5>
         </div>
         <div class="border w-100 py-2">
-          <a class="cust-nav-active" href="customerProfile.php"><i class="fa fa-user" aria-hidden="true"></i>
+          <a class="cust-nav" href="customerProfile.php"><i class="fa fa-user" aria-hidden="true"></i>
             My Profile</a>
         </div>
         <div class="border w-100 py-2">
-          <a class="cust-nav" href="customerProfileEdit.php"> <i class="fa fa-pencil" aria-hidden="true"></i>
+          <a class="cust-nav-active" href="customerProfileEdit.php"> <i class="fa fa-pencil" aria-hidden="true"></i>
             Edit Profile</a>
         </div>
       </div>
@@ -229,32 +229,29 @@ require_once '../../libs/database.php';
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <!-- Footer 
-    <footer class="p-4 mb-0 bg-secondary">
+    <!-- Footer  -->
+    <!-- <footer class="p-4 mb-0 bg-secondary">
      <div class="container">
        <p class="m-0 text-center text-white">&copy; 2021 DINGO FOOD. All Rights Reserved</p>
      </div>
-     /.container 
-  </footer>-->
+  </footer> -->
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
   
-   <!-- Bootstrap core JavaScript -->
-    <script src="/Project/vendor/jquery/jquery.min.js"></script>
-    <script src="/Project/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+ <script src=" /vendor/jquery/jquery.min.js"></script>
+ <script src=" /vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="/Project/vendor/jquery-easing/jquery.easing.min.js"></script>
+ <!-- Plugin JavaScript -->
+ <script src=" /vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact form JavaScript -->
-    <script src="/Project/js/jqBootstrapValidation.js"></script>
-    <script src="/Project/js/contact_me.js"></script>
+ <!-- Contact form JavaScript -->
+ <script src=" /js/jqBootstrapValidation.js"></script>
+ <script src=" /js/contact_me.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="/Project/js/agency.min.js"></script>
-
-
+ <!-- Custom scripts for this template -->
+ <script src=" /js/agency.min.js"></script>
 
 </body>
 
